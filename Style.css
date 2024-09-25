@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 10px;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+    color: rgb(45, 0, 246);
+    font-size: xx-large;
+    scrollbar-width: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-color: #040070;
+    align-items: center;
+    word-spacing: 150%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    padding: 50%;
+    margin-top: 41px;
+
+}
+
+nav ul li {
+
+    list-style: none;
+    margin: 0 23px;
+    font-weight: bold;
+    content: icon;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover,
+single-button {
+    color: rgb(4, 119, 251);
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+}
+
+.Right {
+    color: aliceblue;
+}
+
+.Left {
+    font-size: 41px;
+    line-height: 0.7;
+    font-weight: 400;
+    letter-spacing: 0.128em;
+    align-items: flex-start;
+}
+
+.Left a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+
+.Left:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.firstsection {
+    display: flex;
+    color: #040070;
+    justify-content: space-around;
+    margin: 44px 0;
+    cursor: pointer;
+}
+
+.Leftsection {
+    justify-content: space-around;
+    margin: 15%;
+    margin-top: 100px;
+    margin-right: 0px;
+    width: 55%;
+    font-display: rgb(219, 219, 219);
+    font-size: 3rem;
+    align-items: center;
+   
+}
+
+
+.Rightsection {
+    display: flex;
+    width: 50%;
+    
+
+}
+
+.Leftsection span:hover {
+    font-size: 99.99%;
+    cursor: pointer;
+}
+
+.Rightsection img {
+    width: 42rem;
+    height: 36rem;
+}
+
+.mainhr {
+    width: 64%;
+    margin-left: 18%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.secondsection {
+    font-size: 2rem;
+    padding: 100px;
+}
+
+
+.secondsection-Left {
+    
+    font-size: 20px;
+    align-content: center;
+}
+
+.secondsection-Right {
+    height: 20rem;
+    width: 15rem;
+}
+.secondsection-Left{
+    color: #040070;
+}
+.secondsection-Mid{
+    color: #040070;
+    
+}
+.secondsection-Left {
+    color: #040070;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+.Thirdsection{
+    color: #040070;
+}
+
+
+
+
+
+/* 
+
+@media only screen and (max-width:1300px) {
+    body {}
+
+    nav {
+        display: contents;
+        background: none;
+        background-color: none;
+        font-size: 1rem;
+    }
+
+    nav ul {
+        background-color: #00ff581a;
+        margin: auto;
+        padding: 50px 30px;
+        flex-direction: column;
+        row-gap: 13px;
+    }
+
+    nav .Left {
+        background-color: #ffffff;
+        padding: 28px 43px;
+        font-size: 150%;
+    }
+
+    .Right:single-button {
+        color: yellow;
+        font-size: 1px;
+    }
+
+    .hr {
+        color: rgb(0, 42, 255);
+        flex-direction: column;
+    }
+
+    .Rightsection {
+        width: 0;
+    }
+
+    .Rightsection img {
+        width: 119rem;
+        height: 40rem;
+
+    }
+
+    .firstsection {
+        margin-left: 0px;
+        text-align: left;
+        padding-right: 20rem;
+        width: auto;
+    }
+
+    .Leftsection {
+        margin: 0%;
+        margin-left: 0rem;
+        font-size: 25px;
+        font-display: unset;
+    }
+
+    .Leftsection element {
+        margin: 0%;
+        margin-left: 1rem;
+        font-size: 25px;
+        font-display: unset;
+    }
+
+    .Charts_dropdown {
+        display: none;
+        color: chartreuse;
+    }
+
+    .Charts_btn {
+        text-decoration: none;
+        color: #4cef3a;
+        padding-block: 15px;
+
+    }
+
+    .Charts_btn:double-button {
+        color: #00ff5964;
+    }
+
+    .Charts_dropdown {
+        cursor: pointer;
+        position: absolute;
+        background-color: #00ff5964;
+        padding: 1%;
+        z-index: 1;
+    }
+
+    .Charts_dropdown a {
+        color: black;
+        padding: 6px 20px;
+        ;
+        text-decoration: none;
+        display: block;
+    }
+
+    .Charts_dropdown a:hover {
+        color: chartreuse;
+        cursor: pointer;
+    }
+
+    .Charts:hover .Charts_dropdown {
+        text-decoration: none;
+        display: block;
+        color: rgb(14, 93, 2);
+    }
+
+
+
+}
+
+
+.Left {
+    font-size: 41px;
+    line-height: 0.7;
+    font-weight: 400;
+    letter-spacing: 0.128em;
+    align-items: flex-start;
+}
+
+
+.Leftsection span:hover {
+    font-size: 99.99%;
+    cursor: pointer;
+}
+
+.Rightsection img {
+    width: 45rem;
+    height: 25rem;
+}
+
+.mainhr {
+    width: 64%;
+    margin-left: 18%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+} */

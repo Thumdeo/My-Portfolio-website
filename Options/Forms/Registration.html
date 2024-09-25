@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 10px;
+    }
+
+    body {
+        background-image: url("../../porfolio.html/portfolio.html/back1.png");
+        color: rgb(34, 255, 0);
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 70px;
+        background-color: #00ff581a;
+        align-items: center;
+        word-spacing: 150%;
+    }
+
+    .Left {
+        font-size: 41px;
+        line-height: 0.7;
+        letter-spacing: 0.128em;
+        align-items: flex-start;
+    }
+
+    .Left a {
+        text-decoration: none;
+        color: rgb(34, 255, 0);
+    }
+
+    .Left:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+    @media only screen and (max-width:1300px) {
+        body {}
+
+        nav {
+            display: contents;
+            background: none;
+            background-color: none;
+            font-size: 1rem;
+        }
+
+        nav ul {
+            background-color: #00ff581a;
+            margin: auto;
+            padding: 50px 30px;
+            flex-direction: column;
+            row-gap: 13px;
+        }
+
+        nav .Left {
+            background-color: #00ff581a;
+            padding: 28px 43px;
+            font-size: 150%;
+        }
+
+        .Right:single-button {
+            color: yellow;
+            font-size: 1px;
+        }
+
+        .hr {
+            color: red;
+            flex-direction: column;
+        }
+
+        .Rightsection {
+            width: 0;
+        }
+
+        .Rightsection img {
+            width: 20rem;
+            height: 12rem;
+            margin-left: 3rem;
+        }
+
+        .firstsection {
+            margin-left: 0px;
+            text-align: left;
+            padding-right: 20rem;
+            width: auto;
+        }
+
+        .Leftsection {
+            margin: 0%;
+            margin-left: 0rem;
+            font-size: 25px;
+            font-display: unset;
+        }
+
+        .Leftsection element {
+            margin: 0%;
+            margin-left: 1rem;
+            font-size: 25px;
+            font-display: unset;
+        }
+
+        .Charts_dropdown {
+            display: none;
+            color: chartreuse;
+        }
+
+        .Charts_btn {
+            text-decoration: none;
+            color: #4cef3a;
+            padding-block: 15px;
+
+        }
+
+        .Charts_btn:double-button {
+            color: #00ff5964;
+        }
+
+        .Charts_dropdown {
+            cursor: pointer;
+            position: absolute;
+            background-color: #00ff5964;
+            padding: 1%;
+            z-index: 1;
+        }
+
+        .Charts_dropdown a {
+            color: black;
+            padding: 6px 20px;
+            ;
+            text-decoration: none;
+            display: block;
+        }
+
+        .Charts_dropdown a:hover {
+            color: chartreuse;
+            cursor: pointer;
+        }
+
+        .Charts:hover .Charts_dropdown {
+            text-decoration: none;
+            display: block;
+            color: rgb(14, 93, 2);
+        }
+
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <nav class="Head">
+            <div class="Left"><a href="../../index.html">My Finance Portfolio</a></div>
+        </nav>
+    </header>
+
+    <body>
+        <fieldset>
+            <section class="section">
+                <div class="Right-section">
+                    <div class="heading-left"> Registration</div>
+                    <input type="text" id="fname" name="fname" placeholder="First Name">
+                    <input type="text" id="lname" name="fname" placeholder="last Name">
+                    <textarea name="Address" id="Address" placeholder="Address"></textarea>
+                    <input type="text" id="lname" name="fname" placeholder="Email Id ">
+                    <input type="Phone" id="Phone" placeholder="Phone">
+                    <select name="Country" id=" Country">
+                        <label for="Country">Country name</label>
+                        <option value="PLS"> Please Select</option>
+                        <option value="Au"> Australia</option>
+                        <option value="In"> India</option>
+                        <option value="US">United states</option>
+                    </select>
+                    <select name="state" id="state">
+                        <label for="state">state</label>
+                        <option value="PLS"> Please Select</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="BH">Bihar</option>
+                        <option value="Uk">Uttarakhand</option>
+                        <option value="DL">Delhi</option>
+                        <option value="J&K">Jammu&Kashmir</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="GJ">Gujrat</option>
+                        <option value="KT">Karnataka</option>
+                        <option value="OD">Orissa</option>
+                        <option value="TN">Tamil Nadu</option>
+                    </select>
+                    <input type="button" value="Submit">
+                </div>
+                <div class="text-divider">OR</div>
+                <div class="text-divider-before"></div>
+                <div class="Left-section">
+                    <div class="heading-right">login</div>
+                    <input type="text" id="Email" placeholder="Email">
+                    <input type="password" id="Password" placeholder="Password">
+                    <input type="button" id="login" value="login">
+                </div>
+            </section>
+        </fieldset>
+    </body>
+
+</html> 

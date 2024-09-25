@@ -1,0 +1,95 @@
+fieldset {
+  background-color: #00ff581a;
+  align-self: center;
+  text-decoration: none;
+  padding: 0%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-color: rgb(34, 255, 0);
+}
+
+.text-divider {
+  background-color: rgb(0, 30, 10);
+  position: relative;
+  margin-right: -38px;
+  margin-top: 16rem;
+  margin-bottom: 18rem;
+}
+
+.text-divider-before {
+  padding: 5px;
+  width: -15rem;
+  background: linear-gradient(to top, transparent, #00d449, #00000080);
+  margin-right: 23px;
+}
+
+.section {
+  display: flex;
+  font-size: xx-large;
+}
+
+.Left-section {
+  background-color: rgb(12, 93, 0);
+  margin-left: 0%;
+  padding: 11%;
+}
+
+.Right-section {
+  background-color: rgba(0, 79, 0, 0.56);
+  margin-right: auto;
+  padding: 6%;
+}
+
+.Right-section input {
+  border-color: rgb(123, 246, 16);
+  background-color: #aafb9d;
+  width: 20rem;
+  height: 22px;
+}
+
+.Right-section select {
+  border-color: rgb(123, 246, 16);
+  background-color: #aafb9d;
+  height: 22px;
+}
+
+.Right-section textarea {
+  display: block;
+  border-color: rgb(123, 246, 16);
+  background-color: #aafb9d;
+  width: 20rem;
+}
+
+.Right-section input[type="button"] {
+  color: rgba(26, 207, 0, 0.76);
+  background-color: rgb(3, 73, 3);
+  height: 34px;
+  width: 12rem;
+  font-size: 21px;
+  border-color: rgb(1, 66, 1);
+}
+
+
+.Left-section input {
+  border-color: rgb(123, 246, 16);
+  background-color: #aafb9d;
+  height: 34px;
+  width: 17rem;
+}
+
+.Left-section input[type="button"] {
+  color: rgb(32, 255, 0);
+  background-color: rgb(3, 73, 3);
+  height: 34px;
+  width: 12rem;
+  font-size: 21px;
+  border-color: rgb(1, 66, 1);
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
