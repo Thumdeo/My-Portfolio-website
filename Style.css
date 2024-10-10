@@ -525,7 +525,7 @@ form .button-area {
 .footer .box-container .box p {
     font-size: 1.5rem;
     color: #ccc;
-   
+
     text-transform: none;
 }
 
@@ -537,7 +537,7 @@ form .button-area {
 .footer .box-container .box a {
     font-size: 1.5rem;
     color: rgb(238, 238, 238);
-    
+
 }
 
 .footer .box-container .box a:hover {
@@ -586,27 +586,55 @@ form .button-area {
 }
 
 .footer .fa {
-    
+
     margin: 0 0.3rem;
     font-size: 1.5rem;
     animation: pound 0.35s infinite alternate;
 }
-.box-1 a{
-    
+
+.box-1 a {
+
     display: inline;
 }
+
 .copyright {
     text-align: center;
     font-size: 14px;
     margin: 0;
     opacity: 0.5;
-  }
-.copyright p{
-     background-color: rebeccapurple;
-  }
-.html{
+}
+
+.copyright p {
+    background-color: rebeccapurple;
+}
+
+.html {
     scroll-behavior: smooth;
-} 
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #012056;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-btn:hover {
+    background-color: #04007a;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.download-btn:active {
+    transform: scale(0.95);
+}
+
 /* 
 
 @media only screen and (max-width:1300px) {
