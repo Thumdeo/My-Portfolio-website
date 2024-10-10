@@ -7,28 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Finance Tracker</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Link to external JavaScript file -->
+    <script src="./backend.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="Left"><a href="index.html">My Personal Portfolio</a></div>
+            <div class="Left" id="home"><a href="#home">My Personal Portfolio</a></div>
             <div class="Right">
                 <ul>
-                    <li><a href="index.html"> Projects </a></li>
-                    <!-- <li class="Charts">
-                        <a class="Charts_btn" href="#">Charts</a>
-                        <div class="Charts_dropdown">
-                            <a href="Options/Equity.html">Equity</a>
-                            <a href="Options/Bonds.html">Bonds</a>
-                            <a href="Options/commodities.html">Commodities</a>
-                            <a href="Options/Bitcoins.html">Bitcoins</a>
-                        </div>
-                    </li> -->
-                    <li><a> Education </a></li>
-                    <li><a> Experience </a></li>
-                    <li><a href="../portfolio/Options/Forms/Registration.html"> Resume </a></li>
-                    <li><a> Conatct </a></li>
+                    <li><a href="#work"> Projects </a></li>
+                    <li><a href="#about"> about me </a></li>
+                    <li><a href="#skills"> skills </a></li>
+                    <li><a href="#Resume"> Resume </a></li>
+                    <li><a href="#Contact"> Contact me</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,7 +38,7 @@
 
         <main>
             <hr color="green" style="width: 64%;margin-left: 15%;margin-top: 1%;margin-bottom: 0%;">
-            <section class="firstsection">
+            <section class="firstsection" id="home">
                 <div class="Leftsection">
                     Greetings!, Check out My<a style="cursor: pointer;" id="element" ;font-size=10rem>
                     </a>
@@ -51,82 +50,328 @@
             </section>
         </main>
         <form action=""></form>
+
+
+
+
+
+
+
         <main>
             <hr color="green" style="width: 64%;margin-left: 15%;margin-top: 1%;margin-bottom: 0%;">
-            <section class="secondsection" style="display: flex;">
-
+            <section class="secondsection" id="about" style="display: flex;">
                 <img src="./Assets/webprofile.jpg" alt="" style="height: 18rem;width: 19rem;border-radius: 50% 50%;">
                 </div>
-                <div class="head" style="width: 46%;margin-left: 2%;color: #040070;">About Me:- </div>
+                <div class="head" style="width: 46%;margin-left: 2%;color: #040070; ">About Me:- </div>
                 <div class="secondsection-Left">
-
-                    <div class="secondsection-Mid" style="margin-left: -5%;text-align: justify; text-justify: inter-word;">
+                    <div class="secondsection-Mid" id="about"
+                        style="margin-left: -5%;text-align: justify; text-justify: inter-word;">
                         <p> A B.tech Grad in Electrical Engineering eager to utilize acquired skills in problem solving
-                            with
-                            qualities of critical thinking,team work ,leadership , analytical skills and
+                            with qualities of critical thinking,team work ,leadership , analytical skills and
                             communications skills and different technical skills like Plc-Scada,Matlab,java,python,DSA,
                             etc.Always ready to adapt under any situation to overcome challenges.
                         </p>
+                        <div class="share">
+                            <a href="https://www.linkedin.com/in/jigar-sable" class="fab fa-linkedin"
+                                aria-label="LinkedIn" target="_blank"></a>
+                            <a href="https://github.com/Thumdeo" class="fab fa-github" aria-label="GitHub"
+                                target="_blank"></a>
+                            <a href="mailto:thumdeowarhade@gmail.com" class="fas fa-envelope" aria-label="Mail"
+                                target="_blank"></a>
+                        </div>
                     </div>
                 </div>
             </section>
-
         </main>
+
+
+
+
+
         <main>
             <hr color="green" style="width: 64%;margin-left: 15%;margin-top: 1%;margin-bottom: 0%;">
             <section class="Thirdsection">
-                <div class="head" style="text-align: center;" >Skills</div>
-                    
+                <div class="head" style="text-align: center;" id="skills">Skills</div>
+                <div class="skills-logo-slide">
+                    <div class="logos-slide">
+                        <img src="./Assets/letter-c.png" />
+                        <img src="./Assets/c-.png" />
+                        <img src="./Assets/css-3.png" />
+                        <img src="./Assets/js.png" />
+                        <img src="./Assets/typescript.png" />
+                        <img src="./Assets/python.png" />
+                        <img src="./Assets/html-5.png" />
+                        <img src="./Assets/java.png" />
+                        <img src="./Assets/figma.png" />
+                        <img src="./Assets/Angular.png" />
+                        <img src="./Assets/Springboot.png" />
+                        <img src="./Assets/logo-mysql-26353.png" />
+                        <img src="./Assets/RestAPi.png" />
+                        <img src="./Assets/git-bash.svg" />
+                        <img src="./Assets/github-icon-38988.png" />
+                        <img src="./Assets/Linux.png" />
+                        <img src="./Assets/DSA.png" />
+                        <img src="./Assets/reactjs.svg" />
+                        <img src="./Assets/nodejs.svg" />
+                        <img src="./Assets/nextjs.svg" />
+                        <img src="./Assets/Postman.png" />
+                    </div>
+                </div>
             </section>
         </main>
-        <!-- <main>
+
+
+
+
+        <main>
             <hr color="green" style="width: 64%;margin-left: 15%;margin-top: 1%;margin-bottom: 0%;">
-            <section class="Thirdsection" style="display: flex;">
-                <span class="head">Projects</span>
-                <div class="Thirdsection-Left">
-                    <a style="cursor: pointer;" id="element" ;font-size=10rem></a>
+            <section class="Fourthsection" id="work" style="display: flex;flex-direction: column;">
+                <div class="head" id="#work" style="text-align: center; align-content: center;padding: 2px; ">Projects
                 </div>
+                <div class="card">
+                    <div class="project-card-1">
+                        <div class="project-card-1-text">
+                            <div class="heading">
+                                My blogger
+                            </div>
+                            The website has been developed using Angular for the front-end and integrated with a backend
+                            built using REST APIs with Spring Boot. It is secured using Spring Boot Security, and MySQL
+                            is utilized as the database for local data storage, ensuring a robust and secure web
+                            application architecture.
+                        </div>
+
+                        <div class="Bloggeer_Icons">
+                            <img src="./Assets/Angular.png">
+                            <img src="./Assets/Springboot.png">
+                            <img src="./Assets/logo-mysql-26353.png">
+                            <img src="./Assets/html-5.png">
+                            <img src="./Assets/css-3.png">
+                            <img src="./Assets/RestAPi.png">
+                            <img src="./Assets/Postman.png">
+                            <a href="https://github.com/Thumdeo/My-Portfolio-website"
+                                style="display: flex; justify-content: center; align-items: center;height: 0rem;">
+                                <img src="./Assets/github-icon-38988.png" style="margin-top: 2rem;">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card-1">
+
+                        <div class="project-card-1-text">
+                            <div class="heading">
+                                My portfolio website
+                            </div>
+                            The portfolio website is developed using ReactJS for a dynamic and interactive UI, alongside
+                            HTML and CSS for structure and styling. It leverages Vite for a fast and optimized
+                            development environment, and TypeScript for improved code quality and maintainability. This
+                            combination ensures a modern, responsive, and scalable personal portfolio.
+                        </div>
+                        <div class="Bloggeer_Icons">
+                            <img src="./Assets/reactjs.svg">
+                            <img src="./Assets/js.png">
+                            <img src="./Assets/html-5.png">
+                            <img src="./Assets/css-3.png">
+                            <img src="./Assets/Vite.js.svg">
+                            <a href="https://github.com/Thumdeo/My-Portfolio-website"
+                                style="display: flex; justify-content: center; align-items: center;height: 0rem;">
+                                <img src="./Assets/github-icon-38988.png" style="margin-top: 2rem;">
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="project-card-1">
+
+                        <div class="project-card-1-text">
+                            <div class="heading">
+                                My Finance Tracker
+                            </div>
+                            The website has been developed using Angular for the front-end and integrated with a
+                            backend built using REST APIs with Spring Boot. It is secured using Spring Boot Security,
+                            and
+                            MySQL is utilized as the database for local data storage, ensuring a robust and secure web
+                            application architecture.
+                        </div>
+                        <div class="Bloggeer_Icons">
+                            <img src="./Assets/Angular.png">
+                            <img src="./Assets/Springboot.png">
+                            <img src="./Assets/logo-mysql-26353.png">
+                            <img src="./Assets/html-5.png">
+                            <img src="./Assets/css-3.png">
+                            <img src="./Assets/RestAPi.png">
+                            <a href="https://github.com/Thumdeo/My-Portfolio-website"
+                                style="display: flex; justify-content: center; align-items: center;height: 0rem;">
+                                <img src="./Assets/github-icon-38988.png" style="margin-top: 2rem;">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="project-card-1">
+
+                        <div class="project-card-1-text">
+                            <div class="heading">
+                                Stock Market Prediction And Forecasting
+                            </div>
+                            This project uses a Stacked LSTM model for supervised machine learning. Data is prepared
+                            with Pandas, normalized with sklearn, and reshaped using NumPy. The model is built in Keras
+                            and trained with Adam optimizer and MSE loss. Performance is evaluated on a test set, and
+                            results are visualized with Seaborn, making it suitable for time-series prediction.
+                        </div>
+                        <div class="Bloggeer_Icons">
+                            <img src="./Assets/Angular.png">
+                            <img src="./Assets/Springboot.png">
+                            <img src="./Assets/logo-mysql-26353.png">
+                            <img src="./Assets/html-5.png">
+                            <img src="./Assets/css-3.png">
+                            <img src="./Assets/RestAPi.png">
+                            <a href="https://github.com/Thumdeo/My-Portfolio-website"
+                                style="display: flex; justify-content: center; align-items: center;height: 0rem;">
+                                <img src="./Assets/github-icon-38988.png" style="margin-top: 2rem;">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card-1">
+
+                        <div class="project-card-1-text">
+                            <div class="heading">
+                                My banking app
+                            </div>
+                            This banking app website uses Next.js and TypeScript for the frontend, with Appwrite
+                            managing authentication and the backend. Plaid and Dwolla handle financial data and
+                            transactions, while React Hook Form and Zod ensure form validation. TailwindCSS provides
+                            styling, and Chart.js visualizes financial data with ShadCN enhancing UI components for a
+                            seamless user experience.
+                        </div>
+                        <div class="Bloggeer_Icons">
+                            <img src="./Assets/Angular.png">
+                            <img src="./Assets/Springboot.png">
+                            <img src="./Assets/logo-mysql-26353.png">
+                            <img src="./Assets/html-5.png">
+                            <img src="./Assets/css-3.png">
+                            <img src="./Assets/RestAPi.png">
+                            <a href="https://github.com/Thumdeo/My-Portfolio-website"
+                                style="display: flex; justify-content: center; align-items: center;height: 0rem;">
+                                <img src="./Assets/github-icon-38988.png" style="margin-top: 2rem;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </section>
-
-        </main> -->
-        <!-- <main>
+        </main>
+        <main>
             <hr color="green" style="width: 64%;margin-left: 15%;margin-top: 1%;margin-bottom: 0%;">
-            <section class="Thirdsection" style="display: flex;">
-                <span class="head">Education</span>
-                <div class="Thirdsection-Left">
-                    <a style="cursor: pointer;" id="element" ;font-size=10rem>
-
-                    </a>
-                </div>
-
+            <section class="Fifthsection" id="Resume">
+                <div class="head" style="text-align: center; color:#040070;">Resume</div>
+                <button onclick="loadPDF('./Assets/Thumdeo-warhade-Resume-4.PDF')">Preview PDF</button>
+                <iframe id="pdfViewer" width="100%" height="600px"></iframe>
+                <a href="./Assets/Thumdeo-warhade-Resume-4.PDF" download="Thumdeo's Resume.pdf">
+                    <button>Download PDF</button>
+                </a>
 
             </section>
 
         </main>
         <main>
             <hr color="green" style="width: 64%;margin-left: 15%;margin-top: 1%;margin-bottom: 0%;">
-            <section class="Thirdsection" style="display: flex;">
-                <span class="head">Contact us</span>
-                <div class="Thirdsection-Left">
-                    <a style="cursor: pointer;" id="element" ;font-size=10rem>
+            <!-- <section class="sixthsection">
+                <span class="head" style="text-align: center;">Contact us</span>
+                <div class="sixthsection-container" style="display: flex; height: 50rem;">
+                    <div class="sixthsection-left" style=" width: 50%;background-color: red;">
+                        iujvuvuvyhyvuvy
+                    </div>
+                    <div class="IMg divider"> </div>
+                    <div class="sixthsection-right " style="width: 50%; background-color: blue">
+                        klnlinnknftuvh
+                    </div>
+                </div>
+            </section> -->
 
-                    </a>
+
+
+            <!-- contact section starts -->
+            <div class="head" id="Contact"
+                style="text-align: center;color: #040070;margin-bottom: 4rem;margin-top: 4rem;">Contact me
+            </div>
+            <section class="sixthsection">
+                <div class="container">
+                    <div class="content">
+                        <div class="image-box">
+                            <img draggable="false" src="./Assets/Connect.png" alt="">
+                        </div>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <div class="field">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                    <i class='fas fa-user'></i>
+                                </div>
+                                <div class="field">
+                                    <input type="text" name="email" placeholder="Email" required>
+                                    <i class='fas fa-envelope'></i>
+                                </div>
+                                <div class="field">
+                                    <input type="text" name="phone" placeholder="Phone">
+                                    <i class='fas fa-phone-alt'></i>
+                                </div>
+                                <div class="message" style="width: 372px; height: 123px; ">
+                                    <textarea placeholder="Message" name="message" required></textarea>
+                                    <i class="far fa-comment"></i>
+                                </div>
+                            </div>
+                            <div class="button-area">
+                                <button type="submit">
+                                    Submit </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
-
+            <!-- contact section ends -->
         </main>
- -->
-
 
 
     </body>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: [' Projects.', ' Experiences.', 'Education.'],
+            strings: [' Projects.', 'skills. ', ' Experiences.', 'Resume.'],
             typeSpeed: 50,
         });
     </script>
 </body>
+<footer>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Thumdeo's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br />
+                <div class="footer-box" style="display: flex;">
+                    <div class="box-1" style="width: 50rem; width: 50%;height: 15rem;">
+                        <h3>Quick links</h3>
+                        <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+                        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+                        <a href="#work"><i class="fas fa-chevron-circle-right"></i> Projects</a>
+                    </div>
+
+                    <div class="box-2" style="width: 50%;height: 15rem;">
+                        <h3>Contact Info</h3>
+                        <p> <i class="fas fa-phone"></i>+91 8390074257</p>
+                        <p> <i class="fas fa-envelope"></i>thumdeowarhade@gmail.com</p>
+                        <p> <i class="fas fa-map-marked-alt"></i>Nagpur,Maharashtra, India</p>
+                    </div>
+
+                </div>
+                <p class="copyright">&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+
+    </section>
+
+</footer>
 
 </html>
